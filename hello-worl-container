@@ -1,0 +1,4 @@
+git clone https://github.com/jveraduran/hello-world-container.git
+cd hello-world-container
+docker build -t imagen-custom .
+docker run -d -p 80:80 -t imagen-custom
