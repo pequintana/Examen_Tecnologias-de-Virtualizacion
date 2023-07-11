@@ -22,3 +22,4 @@ sudo mv /tmp/eksctl /usr/local/bin
 #verficicacion de la version de eksctl
 eksctl version
 #EXAMEN
+kubectl version --client --output=yaml
